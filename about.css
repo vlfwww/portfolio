@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h2{
+    font:500 50px DM Sans;
+}
+header .links{
+    font: 500 22px DM Sans;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color: #181717;
+}
+main .info {
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+main .info h2{
+    font: 500 60px DM Sans;
+    color: #181717;
+    margin-bottom: 45px;
+    line-height: 58.32px;
+}
+main .info p{
+    font: 400 24px DM Sans;
+}
+main .info p:last-of-type{
+    margin-top: 20px;
+}
+main .right
+{
+    background-color: #606060;
+    height: 458px;
+    width: 406px;
+}
+main .left{
+    max-width: 575px;
+}
+main .skills{
+    margin-top: 70px;
+}
+main .skills .title{
+    font: 500 22px DM Sans;
+    text-decoration: underline;
+    color: #181717;
+    width: 124px;
+    height: 20px;
+}
+main .skills .skills_inf{
+    font: 400 20px DM Sans;
+    color: #181717;
+    max-width: 436px;
+}
+main .skills .hard, main .skills .soft{
+    display: flex;
+    gap:63px;
+}
+main .skills .soft{
+    margin-top: 86px;
+}
+main .line{
+    height: 1px;
+    border-bottom: 2px solid #181717;
+    margin-top: 110px;
+}
+main .email{
+    display: flex;
+    justify-content: space-between;
+    font: 400 32px DM Sans;
+    color: #181717;
+}
+main .email .email_text{
+    display: flex;
+}
+main .email .email_text img{
+    transform: rotate(270deg);
+    width: 21px;
+    height: 24px;
+    margin-right: 390px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+footer .name{
+    font: 500 22px DM Sans;
+    color: #2429AF;
+}
+footer .links{
+    font: 500 22px DM Sans;
+    color:#181717;
+}
+footer .links a:first-of-type{
+    margin-right: 30px;
+}

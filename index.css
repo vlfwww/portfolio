@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h2{
+    font:500 50px DM Sans;
+}
+header .links{
+    font: 500 22px DM Sans;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color: #181717;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+section h1{
+    font:500 60px DM Sans;
+    color: #181717;
+    margin-top: 130px;
+}
+.about p{
+    font:400 32px DM Sans;
+    color:#606060;
+    margin-top: 170px;
+}
+section img{
+    margin-top: 130px;
+}
+.proj{
+    display: flex;
+    justify-content: space-between;
+}
+.proj .right{
+    width: 640px;
+    height: 365px;
+    background: #606060;
+}
+.left{
+    width: 356px;
+}
+.left .p1{
+    font: 500 24px DM Sans;
+    color: #181717;
+    margin-bottom: 25px;
+}
+.left .p2{
+    font: 400 22px DM Sans;
+    color: #181717;
+    margin-bottom: 30px;
+}
+.left .p3{
+    font: 400 22px DM Sans;
+    color: #606060;
+    margin-bottom: 167px;
+    
+}
+.left .p4{
+    font: 400 22px DM Sans;
+    color: #606060;
+    text-decoration: underline;
+    margin-top: -25px;
+}
+main .line{
+    height: 1px;
+    border-bottom: 1.5px solid #181717;
+    margin:110px 0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+footer .name{
+    font: 500 22px DM Sans;
+    color: #2429AF;
+}
+footer .links{
+    font: 500 22px DM Sans;
+    color:#181717;
+}
+footer .links a:first-of-type{
+    margin-right: 30px;
+}
+
+
+

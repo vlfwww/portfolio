@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h2{
+    font:500 50px DM Sans;
+}
+header .links{
+    font: 500 22px DM Sans;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color: #181717;
+}
+main{
+    margin-top: 110px;
+}
+main .contacts .title{
+    font: 500 60px DM Sans;
+    color: #181717;
+}
+main .contacts .text{
+    font: 400 22px DM Sans;
+    color: #606060;
+    margin-top: 32px;
+}
+main .input_value input{
+    width: 676px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #C4C4C4;
+}
+main .input_value input:last-of-type{
+    margin-top: 30px;
+}
+main button{
+    background-color: #000000;
+    width: 180px;
+    height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    font: 700 18px DM Sans;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+main .input_text{
+    font: 400 22px DM Sans;
+    color: #606060;
+}
+main .input_text p:last-of-type{
+    margin-top: 25px;
+}
+main .wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+footer .name{
+    font: 500 22px DM Sans;
+    color: #2429AF;
+}
+footer .links{
+    font: 500 22px DM Sans;
+    color:#181717;
+}
+footer .links a:first-of-type{
+    margin-right: 30px;
+}
